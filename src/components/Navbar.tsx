@@ -11,7 +11,7 @@ const Navbar = () => {
     <header className="bg-blue-600 text-white">
       <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between max-w-7xl">
         <div className="flex items-center mb-4 md:mb-0">
-          <Link to="/" className="text-2xl font-bold">Zuperr</Link>
+          <Link to="/" className="text-2xl font-bold italic">Zuperr</Link>
           <nav className="ml-8 hidden md:flex">
             <Link to="/" className="mx-3 border-b-2 border-white">Jobs</Link>
             <Link to="/companies" className="mx-3 text-blue-200 hover:text-white">Companies</Link>
